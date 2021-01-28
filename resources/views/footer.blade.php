@@ -1,6 +1,3 @@
-<div class="panel panel-default">
-    <div class="panel-body">
-      Panel content
-    </div>
-    <div class="panel-footer">Panel footer</div>
-  </div>
+<div class="footer">
+  <p>&copy; 2020 Copyrights GGWP - Paris Ynov Campus</p>
+</div>

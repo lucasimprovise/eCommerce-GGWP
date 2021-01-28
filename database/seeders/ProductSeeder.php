@@ -18,35 +18,33 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
-                'name' => 'Phasmophobia',
-                "price"=>'15',
-                "description"=>"Ohlalala j'ai peur",
+                'name' => '7 Days to Die',
+                "price"=>'23',
+                "description"=>"Survivez contre les ennemis, et trouvez des objets qui pourront vous aider.",
                 "category"=>"Horreur",
-                "gallery"=> "https://cdn.akamai.steamstatic.com/steam/apps/739630/capsule_616x353.jpg?t=1611245377"
+                "gallery"=> "https://s3.gaming-cdn.com/images/products/1028/271x377/7-days-to-die-early-access-cover.jpg"
             ],
             [
-                'name' => 'CyberPunk 2077',
-                "price"=>'60',
-                "description"=>"Mddr trop le futur mais j'ai des bug",
+                'name' => 'Payday 2',
+                "price"=>'10',
+                "description"=>"Incarnez le personnage d'un braqueur, acceptez des contrats et gagnez en expérience.",
                 "category"=>"FPS",
-                "gallery"=> "https://media.begeek.fr/2020/06/Cyberpunk-2077-660x370.jpg"
+                "gallery"=> "https://s2.gaming-cdn.com/images/products/223/271x377/payday-2-cover.jpg"
             ],
             [
-                'name' => 'Final Fantasy XV',
-                "price"=>'30',
-                "description"=>"Tro Bo wtF",
-                "category"=>"RPG",
-                "gallery"=> "https://hb.imgix.net/85655dca0526df525d0f3f3b5e0a336f224e0571.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=2c86b56b4dfe2dfb6d37a8c12481dea3"
+                'name' => 'Fall Guys',
+                "price"=>'20',
+                "description"=>"Soyez en compétition avec soixante autres prétendants pour être le dernier personnage vivant",
+                "category"=>"Multijoueur",
+                "gallery"=> "https://s1.gaming-cdn.com/images/products/7281/271x377/fall-guys-ultimate-knockout-cover.jpg"
             ],
             [
-                'name' => 'Hades',
+                'name' => 'Dark Souls Remastered',
                 "price"=>'40',
-                "description"=>"God tier.",
-                "category"=>"Hack n slash",
-                "gallery"=> "https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Hades.png"
+                "description"=>"Un humain a été maudit par la Marque Sombre le rendant mort-vivant et évolue à Lordran dans un monde médiéval-fantastique.",
+                "category"=>"RPG",
+                "gallery"=> "https://s1.gaming-cdn.com/images/products/2364/271x377/dark-souls-remastered-cover.jpg"
             ],
-
-
         ]);
     }
 }
